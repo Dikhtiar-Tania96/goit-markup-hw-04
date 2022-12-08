@@ -193,21 +193,17 @@
 
 
 .section {
-  /* height: 600px; */
   background-color: var(--background-color-black);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
- 3 */
   background-image: url(../images/bg\ image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
 }
-/* .link-button{
-    display: flex;
-    list-style: none;
-} */
+
+
 .list-button {
   padding-left: 0;
   margin-top: 0;
