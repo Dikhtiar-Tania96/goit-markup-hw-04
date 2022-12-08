@@ -9,6 +9,7 @@
   --background-color-section: #f5f5f5;
   --border-color: #ececec;
   --border-photos: #eeeeee;
+  --border-company: #AFB1B8;
 }
 
 .body {
@@ -39,6 +40,15 @@
   border-bottom-style: solid;
   border-bottom-color: var(--border-color);
 }
+
+.button-contact{
+  background-color: transparent;
+  border: none;
+  margin-right: 10px;
+  padding: 0;
+  cursor: pointer;
+}
+
 
 .navi-head {
   display: flex;
@@ -187,8 +197,7 @@
     background-color: var(--color-button);
     background-position: center;
     border-radius: 4px;
-    border: transparent;
-    
+    border: transparent; 
 }
 
 
@@ -390,16 +399,23 @@
   list-style: none;
   display: inline-flex;
   padding-bottom: 30px;
-  gap: 10px;
+  gap: 10px; 
 }
+
+.list-icon{
+  height: 44px;
+  width: 44px;
+  border: 1px solid red;
+  border-radius: 50%;
+
+}
+
 .icon-comand{
   background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
   border: transparent;
-  margin-bottom: 30px;
-  margin-right: 10px;
   }
 
 .photos {
@@ -452,6 +468,34 @@
 .button-active:hover,
 .button-active:focus {
   background-color: #188ce8;
+}
+
+
+
+.client-section-title{
+  margin: 0;
+  text-align: center;
+  padding-top: 94px;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+
+.client-company{
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  list-style: none;
+  margin-top: 50px;
+  padding-bottom: 94px;
+}
+
+.list-client{
+  width: 170px;
+  height: 92px;
+}
+
+.icon-client{
+  justify-content: center;
 }
 
 /*main portfolio*/
@@ -596,7 +640,6 @@
 
 /*footer portfolio*/
 .footer-style {
-  display:inline-flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-color-black);
