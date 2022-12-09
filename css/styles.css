@@ -209,7 +209,8 @@
   background-image: url(../images/bg\ image.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: contain;
+
 }
 
 
@@ -407,6 +408,7 @@
   width: 44px;
   border: 1px solid red;
   border-radius: 50%;
+  
 
 }
 
@@ -480,6 +482,11 @@
   letter-spacing: 0.03em;
 }
 
+.company {
+}
+  
+
+
 .client-company{
   margin: 0;
   padding: 0;
@@ -489,13 +496,18 @@
   padding-bottom: 94px;
 }
 
+
 .list-client{
   width: 170px;
   height: 92px;
+  border: 2px solid tomato;
+  gap: 30px;
 }
 
+
 .icon-client{
-  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 /*main portfolio*/
