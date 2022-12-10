@@ -519,7 +519,6 @@
 
 .client-icon :hover{
  fill: var(--accent-color);
-
 }
 
 
@@ -697,6 +696,10 @@
   list-style: none;
 }
 
+.icon-item:hover{
+  border-color: var(--accent-color);
+}
+
 .icon-link{
   display: flex;
   align-items: center;
@@ -710,7 +713,6 @@
 }
 
 .icon-link:hover{
-  background-color: var(--accent-color);
   fill: var(--white-color);
 }
 
