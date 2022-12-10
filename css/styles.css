@@ -456,8 +456,7 @@
   background-color: #188ce8;
 }
 
-
-
+/*Client section*/
 .client-section-title{
   margin: 0;
   text-align: center;
@@ -466,32 +465,24 @@
   letter-spacing: 0.03em;
 }
 
-.company {
-}
-  
-
-
 .client-company{
-  margin: 0;
-  padding: 0;
-  display: inline-flex;
-  list-style: none;
-  margin-top: 50px;
-  padding-bottom: 94px;
-}
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 30px;
 
+}
 
 .list-client{
   width: 170px;
   height: 92px;
-  border: 2px solid tomato;
-  gap: 30px;
+  list-style: none;
+  border: 1px solid red;
+  fill: var(--second-color);
 }
 
-
-.icon-client{
-  padding-top: 16px;
-  padding-bottom: 16px;
+.client-link{
+ 
 }
 
 /*main portfolio*/
