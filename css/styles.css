@@ -466,10 +466,15 @@
 }
 
 .client-company{
- display: flex;
- align-items: center;
- justify-content: center;
- gap: 30px;
+  margin-top: 50px;  
+  margin-bottom: 0;
+  padding-bottom: 94px;
+  padding-left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 
 }
 
@@ -479,11 +484,9 @@
   list-style: none;
   border: 1px solid red;
   fill: var(--second-color);
+  cursor: pointer;
 }
 
-.client-link{
- 
-}
 
 /*main portfolio*/
 .list-images {
