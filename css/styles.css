@@ -592,6 +592,11 @@
 .global-section{
   display: inline-flex;
 }
+
+.section-footer{
+  margin-right: 70px;
+}
+
 .logo-footer {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
