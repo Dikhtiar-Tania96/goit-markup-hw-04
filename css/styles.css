@@ -247,6 +247,13 @@
   margin-left: 8px;
 }
 
+.list-button .item:hover{
+  box-shadow: 0px 2px 2px 0px #0000001F;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  box-shadow: 0px 3px 1px 0px #0000001A;
+
+}
+
 .img-photo {
   display: block;
 }
@@ -582,7 +589,9 @@
 }
 
 /*footer*/
-
+.global-section{
+  display: inline-flex;
+}
 .logo-footer {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
