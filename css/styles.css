@@ -696,11 +696,8 @@
   list-style: none;
 }
 
-.icon-item:hover{
-  border-color: var(--accent-color);
-}
 
-.icon-link{
+.icon-istink{
   display: flex;
   align-items: center;
   justify-content: center;
